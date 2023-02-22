@@ -13,3 +13,4 @@ The repo contains:
 * a Wav2Vec file, with the code to use the Wav2Vec2.0 model from HuggingFace
 * the poster we presented in January
 * the report summarising all the project
+* the slides used for the presentation. The link to the video is in the mail.

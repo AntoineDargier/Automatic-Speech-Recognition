@@ -1,10 +1,16 @@
 # DL_Project
 
-Dargier Antoine, Ponchon Martin
-
-February 2023
-
+### Goal
 Project of implementing and comparing ASR models (CNN, CTC, Wav2Vec2.0)
+
+### Language
+```Python```
+
+### Contents
+
+### Libraries
+
+### Conclusion
 
 The repo contains:
 * the data, with 3 audio files in mp3 used to test the models. The code to access the data from Kaggle using Google Colab are in the notebook CNN and Wav2Vec

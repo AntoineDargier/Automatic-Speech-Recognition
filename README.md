@@ -1,22 +1,37 @@
-# DL_Project
+# Automatic Speech Recognition
 
 ### Goal
-Project of implementing and comparing ASR models (CNN, CTC, Wav2Vec2.0)
+Implementation and comparison of Speech-to-text models (CNN, CTC, Wav2Vec2.0)
 
 ### Language
 ```Python```
 
 ### Contents
+1. Methodology
+2. CNN Model
+3. CTC Model
+4. Wav2Vec2.0
+5. Evaluation
 
 ### Libraries
+* ```TensorFLow```
+* ```HuggingFace, HuggingSound, SpeechRecognitionModel```
+* ```scikit-learn```
+* ```librosa```
+* ```nltk```
+* ```pandas```
+* ```numpy```
 
 ### Conclusion
-
-The repo contains:
-* the data, with 3 audio files in mp3 used to test the models. The code to access the data from Kaggle using Google Colab are in the notebook CNN and Wav2Vec
-* a CNN file, with the CNN model and description
-* a CTC file, with the source used for this model
-* a Wav2Vec file, with the code to use the Wav2Vec2.0 model from HuggingFace
-* the poster we presented in January
-* the report summarising all the project
-* the slides used for the presentation. The link to the video is in the mail.
+In the study, I was able to familiarize myself
+with traditional ASR methods and seek to understand state-of-the-art algorithms. I was also able
+to develop a relatively simple CNN algorithm.
+I tested this algorithm on a Kaggle dataset. My
+results are logically worse, largely because it was difficult for me to train our models for a long time and
+on a lot of data.
+The Wav2Vec2.0 model was very impressive in the
+tests (WER=21.7%), as it has very good results and is very easy to
+implement. The variety of languages available
+is also a real advantage. However, the transcriptions
+are slow (10 seconds for a 10- second audio), which
+can be a hindrance to obtaining large audio transcriptions.
